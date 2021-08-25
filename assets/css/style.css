@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    color: lightblue;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+    color: lightcoral;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.section-title h2 {
+    padding: 10px;
+}
+
+#about-me div {
+    display: inline-flex;
+}
+
+#about-me img {
+    max-width: 20%;
+}
+
+.logo-container, .img-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 20%;
+    height: auto;
+    padding: 10px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.section-title img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.nav-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+address {
+    color: lightcoral;
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media screen  and (max-width: 768px) {
+    #about-me div {
+        display: flex;
+    }
+}
+@media screen and (max-width: 575px) {
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    header {
+        display: inline-block;
+    }
+
+    #about-me div {
+        display: block;
+    }
+
+    #about-me img {
+        max-width: 100%;
+    }
+}
