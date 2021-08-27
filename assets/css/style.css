@@ -6,7 +6,6 @@
 }
 
 h1, h2, h3 {
-    color: lightblue;
     padding: 10px;
 }
 
@@ -17,7 +16,6 @@ h2 {
 
 p {
     margin: 10px;
-    color: lightcoral;
     text-align: justify;
     padding: 10px;
     line-height: 1.5;
@@ -39,6 +37,10 @@ header ul li {
 header ul li a {
     text-decoration: none;
     padding: 10px;
+}
+
+header ul li a:hover, a:hover {
+    color: gold;
 }
 
 .section-title h2 {
@@ -80,6 +82,10 @@ header ul li a {
     padding: 10px;
 }
 
+.img-container img:hover {
+    border: 2px solid gold;
+}
+
 .section-title img{
     width: 100%;
     height: auto;
@@ -105,6 +111,7 @@ address {
         display: flex;
     }
 }
+
 @media screen and (max-width: 575px) {
     h1, h3 {
         text-align: center;
