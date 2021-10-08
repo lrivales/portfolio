@@ -5,31 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawrence Rivales</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/jpg" href="https://img.icons8.com/bubbles/50/000000/keyboard.png">
 </head>
 <body>
+    <!-- hero -->
+    <div class="hero bg-gray hero-sm">
+        <div class="hero-body">
+          <h1>Lawrence Rivales</h1>
+          <p>APM SME and Web Development Dabbler</p>
+        </div>
+    </div>
 
-    <!-- navigation -->
-    <header>
-        <h1>APM SME and Web Development Dabbler</h1>
-        
-        <nav class="nav-container">
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
+    <!-- navbar -->
 
-                <li>
-                    <a href="#skills">My Skills</a>
-                </li>
-                <li>
-                    <a href="#projects">My Projects</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <section class="navbar-section">
+          <a href="#about-me" class="navbar-brand mr-2">About Me</a>
+          <a href="#skills" class="btn btn-link">Skills</a>
+          <a href="#projects" class="btn btn-link">Projects</a>
+        </section>
     </header>
-
+    
     <!-- about-me section -->
     <section id="about-me" class="section-title">
         <div>
@@ -49,13 +47,55 @@
     <!-- skills section -->
     <section id="skills" class="section-title">
         <div>
-            <h2>My Skills</h2>
+            <h2>Skills</h2>
+            <!-- <div class="container logo-container">
+                <div class="columns">
+                  <div class="column">
+                    <figure>
+                        <img src="./assets/images/appdynamics.png" alt="AppDynamics" class="img-responsive img-fit-contain">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure>
+                        <img src="./assets/images/microfocus.png" alt="Micro Focus" class="img-responsive img-fit-contain">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure>
+                        <img src="./assets/images/splunk.png" alt="Splunk" class="img-responsive img-fit-contain">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure>
+                        <img src="./assets/images/html.png" alt="HTML" class="img-responsive img-fit-contain">
+                    </figure>
+                  </div>
+                  <div class="column">
+                    <figure>
+                        <img src="./assets/images/css.png" alt="CSS" class="img-responsive img-fit-contain">
+                    </figure>
+                  </div>
+                </div>
+              </div> -->
             <div class="logo-container">
-                <img src="./assets/images/appdynamics.png" alt="AppDynamics">
-                <img src="./assets/images/microfocus.png" alt="Micro Focus">
-                <img src="./assets/images/splunk.png" alt="Splunk">
-                <img src="./assets/images/html.png" alt="HTML">
-                <img src="./assets/images/css.png" alt="CSS">
+                <figure>
+                    <img src="./assets/images/appdynamics.png" alt="AppDynamics" class="img-responsive img-fit-cover">
+                </figure>
+                <figure>
+                    <img src="./assets/images/microfocus.png" alt="Micro Focus" class="img-responsive img-fit-cover">
+                </figure>
+                <figure>
+                    <img src="./assets/images/splunk.png" alt="Splunk" class="img-responsive img-fit-cover">
+                </figure>
+                <figure>
+                    <img src="./assets/images/html.png" alt="HTML" class="img-responsive img-fit-cover">
+                </figure>
+                <figure>
+                    <img src="./assets/images/css.png" alt="CSS" class="img-responsive img-fit-cover">
+                </figure>
+                <figure>
+                    <img src="./assets/images/javascript.png" alt="Javascript" class="img-responsive img-fit-cover">
+                </figure>
             </div>
         </div>
     </section>
@@ -63,8 +103,37 @@
     <!-- projects section -->
     <section id="projects" class="section-title">
         <div>
-            <h2>My Projects</h2>
-            <div class="img-container">
+            <h2>Projects</h2>
+            <div class="container">
+                <div class="columns">
+                  <div class="column">
+                      <figure>
+                        <a href="https://lrivales.github.io/horiseon/">
+                            <img src="./assets/images/horiseon.png" alt="Horiseon Top Image">
+                        </a>
+                        <figcaption class="figure-caption text-center">Horiseon</figcaption>
+                      </figure>
+                  </div>
+                  <div class="column">
+                      <figure>
+                        <a href="https://lrivales.github.io/run-buddy/">
+                            <img src="./assets/images/run-buddy.png" alt="Run Buddy Top Image">
+                        </a>
+                        <figcaption class="figure-caption text-center">Run Buddy</figcaption>
+                      </figure>
+                  </div>
+                  <div class="column">
+                      <figure>
+                        <a href="https://lrivales.github.io/app-toolkit/">
+                            <img src="./assets/images/app-toolkit.png" alt="App Toolkit Top Image">
+                        </a>
+                        <figcaption class="figure-caption text-center">App Toolkit</figcaption>
+                      </figure>
+                  </div>
+                </div>
+              </div>
+
+            <!-- <div class="img-container">
                 <a href="https://lrivales.github.io/horiseon/">
                     <img src="./assets/images/horiseon.png" alt="Horiseon Top Image">
                 </a>
@@ -76,6 +145,12 @@
                 <img src="./assets/images/run-buddy.png" alt="Run Buddy Top Image">
             </a>
         </div>
+
+        <div class="img-container">
+            <a href="https://lrivales.github.io/app-toolkit/">
+                <img src="./assets/images/app-toolkit.png" alt="Run Buddy Top Image">
+            </a>
+        </div> -->
     </section>
 </body>
 </html>
